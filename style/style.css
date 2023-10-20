@@ -1,0 +1,99 @@
+/* ----IMPORTS SCSS---- */
+/* ----RESET---- */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* ----CORPO E ALINHAMENTO---- */
+body {
+  background-color: rgba(0, 0, 0, 0.937);
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#container {
+  margin-top: 6.25rem;
+  width: 80%;
+  max-width: 25rem;
+  margin-inline: auto;
+}
+
+.imagem1 {
+  max-inline-size: 9.375rem;
+}
+
+/* ----TEXTOS---- */
+h1 {
+  margin-top: 2.5rem;
+  margin-bottom: 0.625rem;
+  opacity: 0.9;
+}
+
+p {
+  margin-bottom: 2.5rem;
+  opacity: 0.7;
+}
+
+/* ----BOTOES---- */
+input,
+button {
+  display: block;
+  width: 100%;
+  padding: 1.25rem;
+  font-size: 1.25rem;
+  border-radius: 0.4375rem;
+}
+
+input {
+  margin-bottom: 1.25rem;
+}
+
+input::-webkit-input-placeholder {
+  text-align: center;
+}
+
+input:-ms-input-placeholder {
+  text-align: center;
+}
+
+input::-ms-input-placeholder {
+  text-align: center;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+button {
+  border: none;
+  background-color: #b573f2;
+  color: white;
+  -webkit-transition: -webkit-filter 0.2s;
+  transition: -webkit-filter 0.2s;
+  transition: filter 0.2s;
+  transition: filter 0.2s, -webkit-filter 0.2s;
+}
+
+button:hover {
+  -webkit-filter: brightness(1.2);
+          filter: brightness(1.2);
+  cursor: pointer;
+}
+
+#resposta {
+  margin-top: .875rem;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+#resposta div {
+  font-size: 1rem;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 0.625rem;
+}
+/*# sourceMappingURL=style.css.map */
